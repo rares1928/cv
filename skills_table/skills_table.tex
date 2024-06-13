@@ -1,0 +1,79 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{enumitem}
+
+% Define custom command for cell alignment
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+
+
+\begin{document}
+	
+	\title{Skills Table}
+	\author{Rareș Stan}
+	\date{\today}
+	\maketitle
+	\thispagestyle{empty}
+	
+	\begin{table}[h]
+		\centering
+		\begin{tabularx}{\textwidth}{|C|C|}
+			\hline
+			\textbf{\large Skills} & \textbf{\large Grade (1-5)} \\
+			\hline\hline
+			\textbf{Programming languages} &  \\
+			\hline
+			Python & 3 \\
+			\hline
+			SQL (PostgreSQL) & 3 \\
+			\hline
+			Bash & 2 \\
+			\hline
+			JavaScript & 2 \\
+			\hline
+			C\# & 1 \\
+			\hline\hline
+			\textbf{Web development} &  \\
+			\hline
+			HTML/CSS & 2 \\
+			\hline
+			React & 2 \\
+			\hline
+			TypeScript & 1 \\
+			\hline\hline
+			\textbf{Tools and frameworks} &  \\
+			\hline
+			Git & 3 \\
+			\hline
+			Grafana & 3 \\
+			\hline
+			SQLAlchemy & 3 \\
+			\hline
+			gRPC & 2 \\
+			\hline\hline
+			\textbf{Soft skills} &  \\
+			\hline
+			Problem solving & 4 \\
+			\hline
+			Presentation & 4 \\
+			\hline
+			Managing a team of 3 & 2 \\
+			\hline
+		\end{tabularx}
+	\vskip 10mm
+		\begin{tabularx}{\textwidth}{|C|C|}
+			\hline
+			\textbf{\large Languages} & \textbf{\large Grade (A1-C2)} \\
+			\hline
+			Romanian & C2 \\
+			\hline
+			English & C1 \\
+			\hline
+			German & A2 \\
+			\hline
+			French & A1 \\
+			\hline
+		\end{tabularx}
+	\end{table}
+	
+\end{document}
